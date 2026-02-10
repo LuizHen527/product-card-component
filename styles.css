@@ -1,0 +1,152 @@
+*,
+*::after, 
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+
+    /* Colors */
+    --black: #1C232B;
+    --grey: #6C7289;
+    --cream: #F2EAE2;
+    --white: #FFFFFF;
+    --green-500: #3D8168;
+    --green-700: #1A4032;
+
+    /* Typography */
+    --text-size-small: 14px;
+
+    --line-height-100: 110%;
+    --line-height-200: 120%;
+    --line-height-300: 160%;
+
+    /* Spacing */
+
+    --space-500: 40px;
+    --space-400: 32px;
+    --space-300: 24px;
+    --space-200: 16px;
+    --space-100: 8px;
+    --space-50: 4px;
+}
+
+.text-preset-1 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.text-preset-2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 110%;
+    letter-spacing: 0px;
+}
+
+.text-preset-3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0px;
+}
+
+.text-preset-4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 5px;
+}
+
+.text-preset-5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 120%;
+    letter-spacing: 0px;
+}
+
+.text--grey {
+    color: var(--grey);
+}
+
+.text--black {
+    color: var(--black);
+}
+
+.text--green-500 {
+    color: var(--green-500);
+}
+
+.text--line-through {
+    text-decoration: line-through;
+}
+
+body {
+    background-color: var(--cream);
+}
+
+.card {
+    width: 90%;
+    margin: 40px auto;
+    background-color: var(--white);
+}
+
+.card__photo {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(assets/images/image-product-mobile.jpg);
+}
+
+.card__info {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.info__tag {
+    color: var(--grey);
+}
+
+.info__button {
+    border: none;
+    background-color: var(--green-500);
+    color: var(--cream);
+    width: 100%;
+    padding: 1.1rem 0;
+    border-radius: 8px;
+    display: flex;
+}
+
+.info__price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button__text {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 0.5rem;
+}
+
+.attribution {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+@media (min-width: 500px) {
+    body {
+        background-color: red;
+    }
+}
