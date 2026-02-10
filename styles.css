@@ -127,6 +127,11 @@ body {
     display: flex;
 }
 
+.info__button:hover {
+    background-color: var(--green-700);
+    cursor: pointer;
+}
+
 .info__price {
     display: flex;
     align-items: center;
