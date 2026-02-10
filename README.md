@@ -1,15 +1,15 @@
-# Frontend Mentor - Recipe page solution
+# Frontend Mentor - Product Card Component Solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](). Frontend Mentor challenges help you improve your coding skills by building realistic projects. Status: Completed.
+This is a solution to the [Product Card Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. Status: Completed.
 
 
 ## Screenshot
 
-![]()
+![](assets/images/page-screen-shot.png)
 
 ## Links
 
-- Live Site URL: [Github Pages]()
+- Live Site URL: [Github Pages](https://luizhen527.github.io/product-card-component/)
 
 # My process
 
