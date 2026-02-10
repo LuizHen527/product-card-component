@@ -145,8 +145,31 @@ body {
     text-align: center;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 690px) {
+
     body {
-        background-color: red;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
     }
+
+    .card {
+        display: flex;  
+        width: 600px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    .card__photo {
+        width: 50%;
+        border-radius: 10px 0px 0px 10px;
+        background-image: url(assets/images/image-product-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+
 }
